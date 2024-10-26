@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fstest/testy"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/fserrors"
+	"github.com/tamankuc/rclone_ui/fs/rc"
+	"github.com/tamankuc/rclone_ui/fstest/testy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -5,7 +5,7 @@ package atexit
 import (
 	"os"
 
-	"github.com/rclone/rclone/lib/exitcode"
+	"github.com/tamankuc/rclone_ui/lib/exitcode"
 )
 
 var exitSignals = []os.Signal{os.Interrupt}

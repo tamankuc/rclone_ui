@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/go-git/go-billy/v5"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/vfs"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/log"
+	"github.com/tamankuc/rclone_ui/vfs"
 	"github.com/willscott/go-nfs"
 )
 

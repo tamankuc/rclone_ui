@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/cmd/serve/proxy/proxyflags"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/filter"
-	libhttp "github.com/rclone/rclone/lib/http"
+	_ "github.com/tamankuc/rclone_ui/backend/local"
+	"github.com/tamankuc/rclone_ui/cmd/serve/proxy/proxyflags"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/filter"
+	libhttp "github.com/tamankuc/rclone_ui/lib/http"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

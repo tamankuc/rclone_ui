@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 // Read the time specified from the os.FileInfo

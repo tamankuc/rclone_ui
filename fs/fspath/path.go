@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/driveletter"
+	"github.com/tamankuc/rclone_ui/fs/config/configmap"
+	"github.com/tamankuc/rclone_ui/fs/driveletter"
 )
 
 const (

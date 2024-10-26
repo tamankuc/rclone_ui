@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/fs/config/configmap"
+	"github.com/tamankuc/rclone_ui/fs/config/configmap"
 )
 
 var matchUpper = regexp.MustCompile("([A-Z]+)")

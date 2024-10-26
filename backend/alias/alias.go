@@ -6,11 +6,11 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/fspath"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/cache"
+	"github.com/tamankuc/rclone_ui/fs/config/configmap"
+	"github.com/tamankuc/rclone_ui/fs/config/configstruct"
+	"github.com/tamankuc/rclone_ui/fs/fspath"
 )
 
 // Register with Fs

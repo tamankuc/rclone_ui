@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/accounting"
+	"github.com/tamankuc/rclone_ui/lib/rest"
 )
 
 // DirEntry is a directory entry

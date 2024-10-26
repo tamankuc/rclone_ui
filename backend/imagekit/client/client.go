@@ -5,9 +5,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/fshttp"
+	"github.com/tamankuc/rclone_ui/lib/rest"
 )
 
 // ImageKit main struct

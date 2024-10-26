@@ -11,7 +11,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 // crypt internals

@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/dirtree"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/list"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/dirtree"
+	"github.com/tamankuc/rclone_ui/fs/filter"
+	"github.com/tamankuc/rclone_ui/fs/list"
 )
 
 // ErrorSkipDir is used as a return value from Walk to indicate that the

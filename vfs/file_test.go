@@ -8,12 +8,12 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/mockfs"
-	"github.com/rclone/rclone/fstest/mockobject"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/operations"
+	"github.com/tamankuc/rclone_ui/fstest"
+	"github.com/tamankuc/rclone_ui/fstest/mockfs"
+	"github.com/tamankuc/rclone_ui/fstest/mockobject"
+	"github.com/tamankuc/rclone_ui/vfs/vfscommon"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

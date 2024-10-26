@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/tamankuc/rclone_ui/lib/rest"
 )
 
 // UploadParam defines upload parameters

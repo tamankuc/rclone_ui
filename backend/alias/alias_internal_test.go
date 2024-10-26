@@ -8,10 +8,10 @@ import (
 	"sort"
 	"testing"
 
-	_ "github.com/rclone/rclone/backend/local" // pull in test backend
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configfile"
+	_ "github.com/tamankuc/rclone_ui/backend/local" // pull in test backend
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/config"
+	"github.com/tamankuc/rclone_ui/fs/config/configfile"
 	"github.com/stretchr/testify/require"
 )
 

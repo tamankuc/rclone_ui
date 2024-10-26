@@ -4,7 +4,7 @@ package vfstest
 import (
 	"os"
 
-	"github.com/rclone/rclone/vfs"
+	"github.com/tamankuc/rclone_ui/vfs"
 )
 
 // vfsOs is an implementation of Oser backed by the "vfs" package

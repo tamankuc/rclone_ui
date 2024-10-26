@@ -4,7 +4,7 @@
 
 package local
 
-import "github.com/rclone/rclone/fs"
+import "github.com/tamankuc/rclone_ui/fs"
 
 const (
 	xattrSupported = false

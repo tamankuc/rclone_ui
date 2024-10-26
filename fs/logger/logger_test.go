@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rclone/rclone/fs/logger"
+	"github.com/tamankuc/rclone_ui/fs/logger"
 	"github.com/rogpeppe/go-internal/testscript"
 )
 

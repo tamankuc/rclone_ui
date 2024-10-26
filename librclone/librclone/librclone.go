@@ -15,12 +15,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/config/configfile"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fs/rc/jobs"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/accounting"
+	"github.com/tamankuc/rclone_ui/fs/config/configfile"
+	"github.com/tamankuc/rclone_ui/fs/log"
+	"github.com/tamankuc/rclone_ui/fs/rc"
+	"github.com/tamankuc/rclone_ui/fs/rc/jobs"
 )
 
 // Initialize initializes rclone as a library

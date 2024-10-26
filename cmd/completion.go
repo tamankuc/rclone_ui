@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/fspath"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/cache"
+	"github.com/tamankuc/rclone_ui/fs/config"
+	"github.com/tamankuc/rclone_ui/fs/fspath"
 	"github.com/spf13/cobra"
 )
 

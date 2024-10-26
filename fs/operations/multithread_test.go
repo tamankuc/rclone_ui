@@ -9,15 +9,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/fstest/mockfs"
-	"github.com/rclone/rclone/fstest/mockobject"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/tamankuc/rclone_ui/fs/accounting"
+	"github.com/tamankuc/rclone_ui/fs/hash"
+	"github.com/tamankuc/rclone_ui/fs/object"
+	"github.com/tamankuc/rclone_ui/fstest/mockfs"
+	"github.com/tamankuc/rclone_ui/fstest/mockobject"
+	"github.com/tamankuc/rclone_ui/lib/random"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fstest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 const metadataTimeFormat = time.RFC3339Nano

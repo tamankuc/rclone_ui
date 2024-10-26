@@ -3,7 +3,7 @@ package readers
 import (
 	"io"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 // LimitedReadCloser adds io.Closer to io.LimitedReader.  Create one with NewLimitedReadCloser

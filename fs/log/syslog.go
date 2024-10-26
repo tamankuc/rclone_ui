@@ -7,7 +7,7 @@ package log
 import (
 	"runtime"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 // Starts syslog if configured, returns true if it was started

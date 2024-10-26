@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/backend/ulozto/api"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fstest"
+	"github.com/tamankuc/rclone_ui/backend/ulozto/api"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/hash"
+	"github.com/tamankuc/rclone_ui/fs/operations"
+	"github.com/tamankuc/rclone_ui/fstest"
 	"github.com/stretchr/testify/require"
 
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/tamankuc/rclone_ui/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

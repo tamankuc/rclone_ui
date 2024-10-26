@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rclone/rclone/cmd"
+	"github.com/tamankuc/rclone_ui/cmd"
 	"github.com/stretchr/testify/require"
 )
 

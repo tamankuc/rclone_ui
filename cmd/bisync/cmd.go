@@ -14,14 +14,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/bisync/bilib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/hash"
+	"github.com/tamankuc/rclone_ui/cmd"
+	"github.com/tamankuc/rclone_ui/cmd/bisync/bilib"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/config"
+	"github.com/tamankuc/rclone_ui/fs/config/flags"
+	"github.com/tamankuc/rclone_ui/fs/filter"
+	"github.com/tamankuc/rclone_ui/fs/fserrors"
+	"github.com/tamankuc/rclone_ui/fs/hash"
 
 	"github.com/spf13/cobra"
 )

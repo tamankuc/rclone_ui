@@ -32,21 +32,21 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/sas"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/service"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/chunksize"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/lib/bucket"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/env"
-	"github.com/rclone/rclone/lib/multipart"
-	"github.com/rclone/rclone/lib/pacer"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/chunksize"
+	"github.com/tamankuc/rclone_ui/fs/config"
+	"github.com/tamankuc/rclone_ui/fs/config/configmap"
+	"github.com/tamankuc/rclone_ui/fs/config/configstruct"
+	"github.com/tamankuc/rclone_ui/fs/config/obscure"
+	"github.com/tamankuc/rclone_ui/fs/fserrors"
+	"github.com/tamankuc/rclone_ui/fs/fshttp"
+	"github.com/tamankuc/rclone_ui/fs/hash"
+	"github.com/tamankuc/rclone_ui/fs/walk"
+	"github.com/tamankuc/rclone_ui/lib/bucket"
+	"github.com/tamankuc/rclone_ui/lib/encoder"
+	"github.com/tamankuc/rclone_ui/lib/env"
+	"github.com/tamankuc/rclone_ui/lib/multipart"
+	"github.com/tamankuc/rclone_ui/lib/pacer"
 )
 
 const (
@@ -2179,7 +2179,7 @@ func (w *azChunkWriter) WriteChunk(ctx context.Context, chunkNumber int, reader 
 //
 // FIXME it would be nice to delete uncommitted blocks.
 //
-// See: https://github.com/rclone/rclone/issues/5583
+// See: https://github.com/tamankuc/rclone_ui/issues/5583
 //
 // However there doesn't seem to be an easy way of doing this other than
 // by deleting the target.

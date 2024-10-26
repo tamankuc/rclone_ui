@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 	"golang.org/x/sys/unix"
 )
 

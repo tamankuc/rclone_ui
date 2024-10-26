@@ -4,13 +4,13 @@ package rcd
 import (
 	"context"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fs/rc/rcflags"
-	"github.com/rclone/rclone/fs/rc/rcserver"
-	libhttp "github.com/rclone/rclone/lib/http"
-	"github.com/rclone/rclone/lib/systemd"
+	"github.com/tamankuc/rclone_ui/cmd"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/rc"
+	"github.com/tamankuc/rclone_ui/fs/rc/rcflags"
+	"github.com/tamankuc/rclone_ui/fs/rc/rcserver"
+	libhttp "github.com/tamankuc/rclone_ui/lib/http"
+	"github.com/tamankuc/rclone_ui/lib/systemd"
 	"github.com/spf13/cobra"
 )
 

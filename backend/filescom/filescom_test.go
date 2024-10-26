@@ -4,8 +4,8 @@ package filescom_test
 import (
 	"testing"
 
-	"github.com/rclone/rclone/backend/filescom"
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/tamankuc/rclone_ui/backend/filescom"
+	"github.com/tamankuc/rclone_ui/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

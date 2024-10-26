@@ -3,8 +3,8 @@ package netstorage_test
 import (
 	"testing"
 
-	"github.com/rclone/rclone/backend/netstorage"
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/tamankuc/rclone_ui/backend/netstorage"
+	"github.com/tamankuc/rclone_ui/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

@@ -20,26 +20,26 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/backend/onedrive/api"
-	"github.com/rclone/rclone/backend/onedrive/quickxorhash"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/dircache"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/oauthutil"
-	"github.com/rclone/rclone/lib/pacer"
-	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/tamankuc/rclone_ui/backend/onedrive/api"
+	"github.com/tamankuc/rclone_ui/backend/onedrive/quickxorhash"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/config"
+	"github.com/tamankuc/rclone_ui/fs/config/configmap"
+	"github.com/tamankuc/rclone_ui/fs/config/configstruct"
+	"github.com/tamankuc/rclone_ui/fs/config/obscure"
+	"github.com/tamankuc/rclone_ui/fs/fserrors"
+	"github.com/tamankuc/rclone_ui/fs/fshttp"
+	"github.com/tamankuc/rclone_ui/fs/hash"
+	"github.com/tamankuc/rclone_ui/fs/log"
+	"github.com/tamankuc/rclone_ui/fs/operations"
+	"github.com/tamankuc/rclone_ui/fs/walk"
+	"github.com/tamankuc/rclone_ui/lib/atexit"
+	"github.com/tamankuc/rclone_ui/lib/dircache"
+	"github.com/tamankuc/rclone_ui/lib/encoder"
+	"github.com/tamankuc/rclone_ui/lib/oauthutil"
+	"github.com/tamankuc/rclone_ui/lib/pacer"
+	"github.com/tamankuc/rclone_ui/lib/readers"
+	"github.com/tamankuc/rclone_ui/lib/rest"
 	"golang.org/x/oauth2"
 )
 
@@ -1046,7 +1046,7 @@ func NewFs(ctx context.Context, name, root string, m configmap.Mapper) (fs.Fs, e
 	}
 
 	// Disable change polling in China region
-	// See: https://github.com/rclone/rclone/issues/6444
+	// See: https://github.com/tamankuc/rclone_ui/issues/6444
 	if f.opt.Region == regionCN {
 		f.features.ChangeNotify = nil
 	}
@@ -1101,7 +1101,7 @@ func NewFs(ctx context.Context, name, root string, m configmap.Mapper) (fs.Fs, e
 		}
 		// XXX: update the old f here instead of returning tempF, since
 		// `features` were already filled with functions having *f as a receiver.
-		// See https://github.com/rclone/rclone/issues/2182
+		// See https://github.com/tamankuc/rclone_ui/issues/2182
 		f.dirCache = tempF.dirCache
 		f.root = tempF.root
 		// return an error with an fs which points to the parent

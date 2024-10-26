@@ -6,14 +6,14 @@ package sftp
 import (
 	"context"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/serve/proxy"
-	"github.com/rclone/rclone/cmd/serve/proxy/proxyflags"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/lib/systemd"
-	"github.com/rclone/rclone/vfs"
-	"github.com/rclone/rclone/vfs/vfsflags"
+	"github.com/tamankuc/rclone_ui/cmd"
+	"github.com/tamankuc/rclone_ui/cmd/serve/proxy"
+	"github.com/tamankuc/rclone_ui/cmd/serve/proxy/proxyflags"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/config/flags"
+	"github.com/tamankuc/rclone_ui/lib/systemd"
+	"github.com/tamankuc/rclone_ui/vfs"
+	"github.com/tamankuc/rclone_ui/vfs/vfsflags"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

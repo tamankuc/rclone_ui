@@ -38,26 +38,26 @@ import (
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 
 	"github.com/ncw/swift/v2"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/chunksize"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/bucket"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/multipart"
-	"github.com/rclone/rclone/lib/pacer"
-	"github.com/rclone/rclone/lib/pool"
-	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/lib/rest"
-	"github.com/rclone/rclone/lib/version"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/accounting"
+	"github.com/tamankuc/rclone_ui/fs/chunksize"
+	"github.com/tamankuc/rclone_ui/fs/config"
+	"github.com/tamankuc/rclone_ui/fs/config/configmap"
+	"github.com/tamankuc/rclone_ui/fs/config/configstruct"
+	"github.com/tamankuc/rclone_ui/fs/fserrors"
+	"github.com/tamankuc/rclone_ui/fs/fshttp"
+	"github.com/tamankuc/rclone_ui/fs/hash"
+	"github.com/tamankuc/rclone_ui/fs/operations"
+	"github.com/tamankuc/rclone_ui/fs/walk"
+	"github.com/tamankuc/rclone_ui/lib/atexit"
+	"github.com/tamankuc/rclone_ui/lib/bucket"
+	"github.com/tamankuc/rclone_ui/lib/encoder"
+	"github.com/tamankuc/rclone_ui/lib/multipart"
+	"github.com/tamankuc/rclone_ui/lib/pacer"
+	"github.com/tamankuc/rclone_ui/lib/pool"
+	"github.com/tamankuc/rclone_ui/lib/readers"
+	"github.com/tamankuc/rclone_ui/lib/rest"
+	"github.com/tamankuc/rclone_ui/lib/version"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/sync/errgroup"
 )
@@ -71,7 +71,7 @@ import (
 // function and set the correct quirks. Test the quirks are correct by
 // running the integration tests "go test -v -remote NewS3Provider:".
 //
-// See https://github.com/rclone/rclone/blob/master/CONTRIBUTING.md#adding-a-new-s3-provider
+// See https://github.com/tamankuc/rclone_ui/blob/master/CONTRIBUTING.md#adding-a-new-s3-provider
 // for full information about how to add a new s3 provider.
 var providerOption = fs.Option{
 	Name: fs.ConfigProvider,
@@ -2484,7 +2484,7 @@ There is currently an unsolved issue with the s3 (specifically minio) backend
 and HTTP/2.  HTTP/2 is enabled by default for the s3 backend but can be
 disabled here.  When the issue is solved this flag will be removed.
 
-See: https://github.com/rclone/rclone/issues/4673, https://github.com/rclone/rclone/issues/3631
+See: https://github.com/tamankuc/rclone_ui/issues/4673, https://github.com/tamankuc/rclone_ui/issues/3631
 
 `,
 		}, {
@@ -3441,7 +3441,7 @@ func setQuirks(opt *Options) {
 		useAlreadyExists = false
 		// useMultipartUploads = false - set this manually
 		// rclone serve doesn't support multi-part server side copy:
-		// See: https://github.com/rclone/rclone/issues/7454
+		// See: https://github.com/tamankuc/rclone_ui/issues/7454
 		// So make cutoff very large which it does support
 		opt.CopyCutoff = math.MaxInt64
 	case "Scaleway":
@@ -3492,7 +3492,7 @@ func setQuirks(opt *Options) {
 		useAlreadyExists = false // untested
 	case "GCS":
 		// Google break request Signature by mutating accept-encoding HTTP header
-		// https://github.com/rclone/rclone/issues/6670
+		// https://github.com/tamankuc/rclone_ui/issues/6670
 		useAcceptEncodingGzip = false
 		useAlreadyExists = true // returns BucketNameUnavailable instead of BucketAlreadyExists but good enough!
 		// GCS S3 doesn't support multi-part server side copy:
@@ -4168,7 +4168,7 @@ func (f *Fs) list(ctx context.Context, opt listOpt, fn listFn) error {
 	// it doesn't encode CommonPrefixes.
 	// See: https://tracker.ceph.com/issues/41870
 	//
-	// This does not work under IBM COS also: See https://github.com/rclone/rclone/issues/3345
+	// This does not work under IBM COS also: See https://github.com/tamankuc/rclone_ui/issues/3345
 	// though maybe it does on some versions.
 	//
 	// This does work with minio but was only added relatively recently

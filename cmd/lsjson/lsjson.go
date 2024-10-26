@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/ls/lshelp"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/tamankuc/rclone_ui/cmd"
+	"github.com/tamankuc/rclone_ui/cmd/ls/lshelp"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/config/flags"
+	"github.com/tamankuc/rclone_ui/fs/operations"
 	"github.com/spf13/cobra"
 )
 

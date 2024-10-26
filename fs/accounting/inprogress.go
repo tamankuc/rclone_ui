@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 // inProgress holds a synchronized map of in progress transfers

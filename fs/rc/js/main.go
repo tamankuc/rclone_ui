@@ -16,17 +16,17 @@ import (
 	"runtime"
 	"syscall/js"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/rc"
 
 	// Core functionality we need
-	_ "github.com/rclone/rclone/fs/operations"
-	_ "github.com/rclone/rclone/fs/sync"
+	_ "github.com/tamankuc/rclone_ui/fs/operations"
+	_ "github.com/tamankuc/rclone_ui/fs/sync"
 
-	//	_ "github.com/rclone/rclone/backend/all" // import all backends
+	//	_ "github.com/tamankuc/rclone_ui/backend/all" // import all backends
 
 	// Backends
-	_ "github.com/rclone/rclone/backend/memory"
+	_ "github.com/tamankuc/rclone_ui/backend/memory"
 )
 
 var (

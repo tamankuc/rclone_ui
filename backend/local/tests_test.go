@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/rclone/rclone/lib/encoder"
+	"github.com/tamankuc/rclone_ui/lib/encoder"
 )
 
 // Test Windows character replacements

@@ -4,8 +4,8 @@ package reveal
 import (
 	"fmt"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs/config/obscure"
+	"github.com/tamankuc/rclone_ui/cmd"
+	"github.com/tamankuc/rclone_ui/fs/config/obscure"
 	"github.com/spf13/cobra"
 )
 

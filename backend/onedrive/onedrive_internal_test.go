@@ -8,19 +8,19 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/backend/onedrive/api"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
-	"github.com/rclone/rclone/lib/random"
+	_ "github.com/tamankuc/rclone_ui/backend/local"
+	"github.com/tamankuc/rclone_ui/backend/onedrive/api"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/operations"
+	"github.com/tamankuc/rclone_ui/fstest"
+	"github.com/tamankuc/rclone_ui/fstest/fstests"
+	"github.com/tamankuc/rclone_ui/lib/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
-// go test -timeout 30m -run ^TestIntegration/FsMkdir/FsPutFiles/Internal$ github.com/rclone/rclone/backend/onedrive -remote TestOneDrive:meta -v
-// go test -timeout 30m -run ^TestIntegration/FsMkdir/FsPutFiles/Internal$ github.com/rclone/rclone/backend/onedrive -remote TestOneDriveBusiness:meta -v
+// go test -timeout 30m -run ^TestIntegration/FsMkdir/FsPutFiles/Internal$ github.com/tamankuc/rclone_ui/backend/onedrive -remote TestOneDrive:meta -v
+// go test -timeout 30m -run ^TestIntegration/FsMkdir/FsPutFiles/Internal$ github.com/tamankuc/rclone_ui/backend/onedrive -remote TestOneDriveBusiness:meta -v
 // go run ./fstest/test_all -remotes TestOneDriveBusiness:meta,TestOneDrive:meta -verbose -maxtries 1
 
 var (

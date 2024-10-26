@@ -16,11 +16,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/backend/box/api"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/tamankuc/rclone_ui/backend/box/api"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/accounting"
+	"github.com/tamankuc/rclone_ui/lib/atexit"
+	"github.com/tamankuc/rclone_ui/lib/rest"
 )
 
 // createUploadSession creates an upload session for the object
@@ -100,7 +100,7 @@ func (o *Object) commitUpload(ctx context.Context, SessionID string, parts []api
 	var body []byte
 	var resp *http.Response
 	// For discussion of this value see:
-	// https://github.com/rclone/rclone/issues/2054
+	// https://github.com/tamankuc/rclone_ui/issues/2054
 	maxTries := o.fs.opt.CommitRetries
 	const defaultDelay = 10
 	var tries int

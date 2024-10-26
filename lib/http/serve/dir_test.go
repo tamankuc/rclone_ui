@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	libhttp "github.com/rclone/rclone/lib/http"
+	libhttp "github.com/tamankuc/rclone_ui/lib/http"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

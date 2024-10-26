@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rclone/rclone/backend/hasher"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
-	"github.com/rclone/rclone/lib/kv"
+	"github.com/tamankuc/rclone_ui/backend/hasher"
+	"github.com/tamankuc/rclone_ui/fstest"
+	"github.com/tamankuc/rclone_ui/fstest/fstests"
+	"github.com/tamankuc/rclone_ui/lib/kv"
 
-	_ "github.com/rclone/rclone/backend/all" // for integration tests
+	_ "github.com/tamankuc/rclone_ui/backend/all" // for integration tests
 )
 
 // TestIntegration runs integration tests against the remote

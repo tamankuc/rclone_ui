@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 	"github.com/spf13/pflag"
 )
 

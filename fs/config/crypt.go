@@ -16,8 +16,8 @@ import (
 
 	"golang.org/x/crypto/nacl/secretbox"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/obscure"
+	"github.com/tamankuc/rclone_ui/fs"
+	"github.com/tamankuc/rclone_ui/fs/config/obscure"
 )
 
 var (

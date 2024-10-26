@@ -8,7 +8,7 @@ import (
 	"path"
 	"slices"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 	yaml "gopkg.in/yaml.v2"
 )
 

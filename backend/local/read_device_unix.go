@@ -8,7 +8,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 // readDevice turns a valid os.FileInfo into a device number,

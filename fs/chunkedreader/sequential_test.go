@@ -3,8 +3,8 @@ package chunkedreader
 import (
 	"testing"
 
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/fstest/mockobject"
+	_ "github.com/tamankuc/rclone_ui/backend/local"
+	"github.com/tamankuc/rclone_ui/fstest/mockobject"
 )
 
 func TestSequential(t *testing.T) {

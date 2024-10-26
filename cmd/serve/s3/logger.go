@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/rclone/gofakes3"
-	"github.com/rclone/rclone/fs"
+	"github.com/tamankuc/rclone_ui/fs"
 )
 
 // logger output formatted message

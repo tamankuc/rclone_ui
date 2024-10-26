@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/rclone/rclone/fs/config/configmap"
+	"github.com/tamankuc/rclone_ui/fs/config/configmap"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
